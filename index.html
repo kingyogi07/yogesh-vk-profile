@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YOGESH VK — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">YOGI</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-label">Available for work · 2026 To Until its end</div>
+      <h1 class="hero-name">
+        <span class="line1">YOGESH</span>
+        <span class="line2">VK</span>
+      </h1>
+      <p class="hero-role">
+        Student &amp; Entrepreneur <span>immersive digital experiences</span> that live at the intersection of code.
+      </p>
+      <div class="hero-cta">
+        <a href="#work" class="btn-primary">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          View Projects
+        </a>
+        <a href="#contact" class="btn-outline">
+          Get In Touch
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="image-frame">
+        <div class="dot-accent dot1"></div>
+        <div class="dot-accent dot2"></div>
+        <div class="profile-img-wrapper">
+          <!--
+            ▼ REPLACE src WITH YOUR IMAGE PATH ▼
+            Upload your photo (e.g. yogi.jpg) to the same folder as index.html,
+            then change the src below to: src="yogi.jpg"
+          -->
+          <img
+            src="C:\Users\Arkas\OneDrive\Desktop\yogesh vk site\yogi.JPG"
+            alt="Yogesh VK"
+            id="profileImg"
+          />
+          <!-- Placeholder shown when no image is found -->
+          <div class="img-placeholder" id="imgPlaceholder" style="display:none;">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <p>Add your photo<br/>Upload yogi.jpg alongside index.html</p>
+          </div>
+        </div>
+        <div class="stats-strip">
+          <div class="stat">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Years of college</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">7</div>
+            <div class="stat-label">Projects</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <div class="ticker-item">operating system <span>✦</span></div>
+    <div class="ticker-item">networking <span>✦</span></div>
+    <div class="ticker-item">Creative Coding <span>✦</span></div>
+    <div class="ticker-item">cryptography <span>✦</span></div>
+    <div class="ticker-item">website application <span>✦</span></div>
+    <div class="ticker-item">malware analysis <span>✦</span></div>
+    <div class="ticker-item">operating system <span>✦</span></div>
+    <div class="ticker-item">networking <span>✦</span></div>
+    <div class="ticker-item">Creative Coding <span>✦</span></div>
+    <div class="ticker-item">cryptography <span>✦</span></div>
+    <div class="ticker-item">website application <span>✦</span></div>
+    <div class="ticker-item">malware analysis <span>✦</span></div>
+    <div class="ticker-item">digital forensics <span>✦</span></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-text fade-up">
+      <div class="section-tag">About Me</div>
+      <h2 class="section-title">YOGESH <br><em>VK</em></h2>
+      <p>
+        Hey, I'm <strong>Yogesh VK</strong> — Cybersecurity enthusiast looking for an opportunity to start my career in information security where I can utilize my technical knowledge, analytical skills, and passion for protecting digital assets.
+      </p>
+      <p>
+        <strong>Cyber Security Engineer</strong> — Cybersecurity graduate aiming to join a dynamic organization where I can apply my knowledge of cyber threat detection, vulnerability assessment, and network security to enhance organizational security posture.
+      </p>
+    </div>
+    <div class="fade-up" style="transition-delay:0.2s">
+      <div class="section-tag">Skills</div>
+      <br>
+      <div class="skills-grid">
+        <div class="skill-chip"><span></span>Kali Linux</div>
+        <div class="skill-chip"><span></span>NMAP</div>
+        <div class="skill-chip"><span></span>Wireshark</div>
+        <div class="skill-chip"><span></span>Burp Suite</div>
+        <div class="skill-chip"><span></span>Metasploit Framework</div>
+        <div class="skill-chip"><span></span>Problem Solving</div>
+        <div class="skill-chip"><span></span>Analytical</div>
+        <div class="skill-chip"><span></span>Continuous Learning</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<div class="projects-wrapper" id="work">
+  <div style="max-width:1400px; margin:0 auto; padding: 0 0 2rem;">
+    <div class="section-tag">Selected Work</div>
+    <h2 class="section-title">Recent<br><em>Projects</em></h2>
+  </div>
+  <div class="projects-grid">
+
+    <div class="project-card fade-up">
+      <div class="project-thumb">
+        <div class="project-thumb-bg">01</div>
+        <div class="project-thumb-overlay"></div>
+        <div class="project-tag-list">
+          <span class="ptag">Kali Linux</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <h3>Session Hack</h3>
+        <p>Session hacking means an attacker steals the session ID of a logged-in user and uses it to access the account without knowing the password.</p>
+        <!--
+          ▼ Upload Mini Project 2.pdf to the same folder and update the href below ▼
+        -->
+        <a href="C:\Users\Arkas\OneDrive\Desktop\yogesh vk site\Mini Project 2.pdf" class="project-link">
+          View Project
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card fade-up" style="transition-delay:0.15s">
+      <div class="project-thumb">
+        <div class="project-thumb-bg">02</div>
+        <div class="project-thumb-overlay"></div>
+        <div class="project-tag-list">
+          <span class="ptag">Kali Linux</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <h3>SQL Injection</h3>
+        <p>Used Google Dorks to search for exposed cameras connected to the internet and demonstrated how some cameras allow access without credentials.</p>
+        <!--
+          ▼ Upload Mini Project 1.pdf to the same folder and update the href below ▼
+        -->
+        <a href="C:\Users\Arkas\OneDrive\Desktop\yogesh vk site\Mini Project 1.pdf" class="project-link">
+          View Project
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="contact-section" id="contact">
+  <div class="contact-inner fade-up">
+    <div class="section-tag" style="justify-content:center">Contact</div>
+    <h2 class="section-title">Connect<br><em>Together</em></h2>
+    <p style="color:var(--muted); font-size:1rem; line-height:1.7; margin-bottom:1rem;">
+      Interested in working together or have a question? Feel free to reach out.
+    </p>
+    <!-- ▼ Replace with your actual email address ▼ -->
+    <a href="mailto:youremail@example.com" class="contact-email">youremail@example.com</a>
+    <div class="social-row">
+      <a href="https://github.com/kingyogi07" class="social-btn">GitHub</a>
+      <a href="https://www.linkedin.com/in/yogesh-vk-423bbb319" class="social-btn">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">YOGESH VK</div>
+  <p>© 2026 Yogesh VK · Designed &amp; Built with passion</p>
+  <p style="font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.1em;color:var(--muted)">Tiruppur, India</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
